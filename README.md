@@ -1,1 +1,2 @@
-# Machine_Learning_Final
+# Machine Learning Final
+# Predicting Pneumonia with MONAI and Multiple DenseNets
