@@ -24,8 +24,15 @@ The goal is to develop a highly effective model for predicting pneumonia from ch
 ## Methods 
 ### Dataset 
 As previously mentioned, the dataset used in this model is MedMNIST's PneumoniaMNIST. 
+
 It is a binary-class data set containing a total 5,856 sample chest x-rays. 
+
 This is split into 4,708 training samples, 524 validation samples, and 624 test samples
+
+### Model 
+This code will first load and preprocess the PneumoniaMNIST dataset. It will then build the model using MONAI's DenseNet architecture, trained and validated over 100 epochs. DenseNet121, DenseNet169, DenseNet201, and DenseNet264 will be tested and compared to determine which model achieves the highest efficiency in predicting pneumonia. The DenseNet121 architecture can be seen below with the only noticable difference being the block configuration
+
+
 
 
 
