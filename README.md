@@ -64,7 +64,7 @@ The graphs below show the training loss and accuracy throughout each of the 100 
 ### Confusion Matrices 
 The confusion matrices below show exactly how each DenseNet model performed. It is noted that while DenseNet264 did perform the best, DenseNet201 and DenseNet169 has the exact same results
 
-![Alt text](./results_images/confusion_matrices.png)
+![Alt text](./results_images/confuse_matrices.png)
 
 ## Conclusions 
 After comparing all the DenseNet models, it is clear that they all performed exceptionally well and very similarly. As expected, DenseNet264, being the most computationally complex, delivered the best performance. However, the confusion matrices for DenseNet201 and DenseNet169 show identical values, indicating that they performed equally as well. In conclusion, using a less computationally complex DenseNet typically yields similar results and efficiency. 
