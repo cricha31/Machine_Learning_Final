@@ -22,3 +22,10 @@ https://www.researchgate.net/publication/352496130_Using_Explainable_Artificial_
 The goal is to develop a highly effective model for predicting pneumonia from chest X-rays. Through the use of MONAI's DenseNet models, we aim to surpass the 91% accuracy achieved by Anthony Novokshanov. Additionally, this approach will allow us to compare the performance of different DenseNet variants (121, 169, 201, 264) and identify the most effective model.
 
 ## Methods 
+### Dataset 
+As previously mentioned, the dataset used in this model is MedMNIST's PneumoniaMNIST. 
+It is a binary-class data set containing a total 5,856 sample chest x-rays. 
+This is split into 4,708 training samples, 524 validation samples, and 624 test samples
+
+
+
